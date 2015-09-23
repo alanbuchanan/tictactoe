@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.css"/>
+
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <title>Noughts and Crosses</title>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>noughts and crosses</h1>
+        <table>
+            <tr>
+                <td id="one" class="left-col top-row"></td>
+                <td id="two" class="middle-col top-row"></td>
+                <td id="three" class="right-col top-row"></td>
+            </tr>
+            <tr>
+                <td id="four" class="left-col middle-row"></td>
+                <td id="five" class="middle-col middle-row"></td>
+                <td id="six" class="right-col middle-row"></td>
+            </tr>
+            <tr>
+                <td id="seven" class="left-col bottom-row"></td>
+                <td id="eight" class="middle-col bottom-row"></td>
+                <td id="nine" class="right-col bottom-row"></td>
+            </tr>
+        </table>
+    <h3>
+        Draws <span id="draws">0</span> - <span id="cpuWins">0</span> CPU
+    </h3>
+    </div>
+</div>
+</body>
+</html>
